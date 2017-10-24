@@ -1,0 +1,10 @@
+{
+  "name": "@ctrlplusb/yarn-workspace-root-bug-bar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "<sean@ctrlplusb.com> (http://ctrlplusb.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0"
+  }
+}
