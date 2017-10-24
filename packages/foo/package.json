@@ -1,11 +1,15 @@
 {
+  "private": false,
   "name": "@ctrlplusb/yarn-workspace-root-bug-foo",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
+  "files": ["bin"],
+  "bin": {
+    "foo": "bin/foo.js"
+  },
   "author": "<sean@ctrlplusb.com> (http://ctrlplusb.com/)",
   "license": "MIT",
   "dependencies": {
-    "@ctrlplusb/yarn-workspace-root-bug-foo": "1.0.0",
     "chalk": "^2.3.0"
   }
 }

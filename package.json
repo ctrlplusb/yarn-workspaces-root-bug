@@ -4,9 +4,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "bin": {
-    "foo": "./index.js"
+    "foo": "bin/foo.js"
   },
+  "files": ["bin"],
   "author": "<sean@ctrlplusb.com> (http://ctrlplusb.com/)",
   "license": "MIT",
+  "devDependencies": {},
   "workspaces": ["packages/*"]
 }
